@@ -1,0 +1,22 @@
+{
+    "config": {
+        "title": "Kubee Google Keep",
+        "step": {
+            "user": {
+                "title": "Connection",
+                "description": "Introduceți contul dvs. Google și parola aplicației",
+                "data": {
+                    "username": "Username",
+                    "password": "Parola",
+                    "default_list": "Default List"
+                }
+            }
+        },
+        "error": {
+            "auth": "Username/Password sunt gresite."
+        },
+        "abort": {
+            "single_instance_allowed": "Only a single configuration of Blueprint is allowed."
+        }
+    }
+}
